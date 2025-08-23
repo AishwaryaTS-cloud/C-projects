@@ -20,4 +20,4 @@ The projects are designed to improve problem-solving, logic building, and unders
 
 ---
 
-⚡ Contributions are welcome! This repo serves as both a **learning resource** and a **portfolio** of C programming skills.
+
