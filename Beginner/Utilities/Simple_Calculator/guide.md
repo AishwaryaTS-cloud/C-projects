@@ -15,33 +15,39 @@ A simple command-line calculator written in C. Supports basic arithmetic and ext
 | `s`      | Square Root (single operand)   |
 
 - Handles division by zero and invalid input.
-
 ## How to Compile & Run
 
-All commands in one place:
-
+1. Open your terminal or command prompt.
+2. Navigate to the project directory:
 ```bash
-# Navigate to the project directory
 cd D:\Projects\C-Projects\Beginner\Utilities\Simple_Calculator
+```
 
-# Compile the C program (link math library)
+3. Compile the C program:
+```bash
 gcc code.c -o Simple_Calculator -lm
-
-# Run the program
+```
+4. Run the program:
+```bash
 .\Simple_Calculator.exe
-
-
+```
 ## Example Usage
 
-Enter an operator (+, -, *, /, %, ^, s): +  
-Enter two operands: 10 5  
-Result = 15.00  
-
-Enter an operator (+, -, *, /, %, ^, s): s  
-Enter a number: 25  
-Result = 5.00  
+```bash
+Enter an operator (+, -, *, /, %, ^, s):
++
+Enter two operands: 10 5
+Result = 15.00
+```
+```bash
+Enter an operator (+, -, *, /, %, ^, s):
++
+Enter two operands: 10 5
+Result = 15.00
+```
 
 ## Notes
 
-- For square root (`s`), only **one operand** is required.  
-- Make sure to link the math library (`-lm`) when compiling to use `sqrt` and `pow`.
+i. For square root (s), only one operand is required.
+
+ii. Make sure to link the math library (-lm) when compiling to use sqrt and pow.
