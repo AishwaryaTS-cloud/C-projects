@@ -36,14 +36,17 @@ gcc code.c -o Simple_Calculator -lm
 ```bash
 Enter an operator (+, -, *, /, %, ^, s):
 +
-Enter two operands: 10 5
+Enter two operands: 
+10 
+5
 Result = 15.00
 ```
 ```bash
-Enter an operator (+, -, *, /, %, ^, s):
-+
-Enter two operands: 10 5
-Result = 15.00
+Enter an operator (+, -, *, /, %, ^, s): 
+s
+Enter a number: 
+25
+Result = 5.00
 ```
 
 ## Notes

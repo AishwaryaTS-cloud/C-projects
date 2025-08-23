@@ -29,7 +29,7 @@ int main()
     else
     {
         // Two operands needed
-        printf("Enter two operands: ");
+        printf("Enter two operands:\n");
         scanf("%lf %lf", &a, &b);
 
         switch (op)
